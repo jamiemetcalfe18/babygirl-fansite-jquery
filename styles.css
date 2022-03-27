@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* CSS Reset */
+body, header, main, footer, img, h1, ul, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+
+/* Syle rules for desktop and big screens */
+img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #242D47 10px solid;
+}
+
+#img-fig {
+  padding: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 0.65em;
+  display: block;
+}
+
+body {
+  background-color: #19C9FA;
+}
+
+#title {
+  background-color: #118CAD;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+h1 {
+    color: #002B38;
+    font-size: xxx-large;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #002B38;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.65em; 
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Style rules for tablet viewport*/
+@media screen and (max-width: 1024px) {
+  .container {
+    padding-left:  20px;
+    padding-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: large;
+  }
+  img {
+    border: #242D47 5px solid;
+  }
+}
+
+/* Style rules for mobile viewport */
+@media screen and (max-width: 500px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  img {
+    max-width: 60%;
+    border: #242D47 5px solid;
+  }
+}
+
+a {
+	color: darkblue;
+}
